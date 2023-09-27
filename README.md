@@ -25,7 +25,7 @@ Desenvolvemos esta aplicação para auxiliar o "Publicador de Boas Novas" a regi
 
 ## Como executar?
 
-- > 🎬 [Vídeo de Visão Geral do Projeto](https://youtu.be/elgTpzwykfo)
+- > 🎬 [Vídeo de Visão Geral do Projeto](https://youtu.be/mD65-vTK5FE)
 
 A aplicação está dividida em 2 repositórios, sendo:
 - > [backend](https://github.com/mjosejunior/mvp_jrmj_sp2_back.git)
