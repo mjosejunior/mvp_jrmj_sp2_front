@@ -48,7 +48,7 @@ git clone https://github.com/mjosejunior/mvp_jrmj_sp2_front.git
 
 **Para ter uma visão completa e integrada do projeto**:
 
-Acesse o repositório integrado do projeto ([Principal](https://github.com/mjosejunior/mvp_jrmj_sp2) e siga as instruções.
+Acesse o repositório integrado do projeto [Principal](https://github.com/mjosejunior/mvp_jrmj_sp2) e siga as instruções.
 
 Em caso de dificuldades, por favor, entre em contato.
 

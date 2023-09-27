@@ -3,7 +3,7 @@
 # Use a lightweight nginx image
 FROM nginx:alpine
 
-# Copy the static files to the nginx directory
+# Copie os arquivos estáticos para o diretório nginx
 COPY . /usr/share/nginx/html
 
 # Expose the port
