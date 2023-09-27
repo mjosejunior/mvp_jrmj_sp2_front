@@ -46,18 +46,9 @@ git clone https://github.com/mjosejunior/mvp_jrmj_sp2_front.git
 
 ## Como Executar com Docker
 
-**Para ter uma visão completa e integrada com o backend**:
+**Para ter uma visão completa e integrada do projeto**:
 
-1. Certifique-se de ter o Docker e o Docker Compose instalados.
-
-2. Clone ambos os repositórios ([backend](https://github.com/mjosejunior/mvp_jrmj_sp2_back.git) e [frontend](https://github.com/mjosejunior/mvp_jrmj_sp2_front.git)).
-
-3. No diretório principal, onde o `docker-compose.yml` está localizado, execute: 
-```bash
-docker-compose up --build.
-```
-Acesse `http://localhost` para ver o frontend em ação e `http://localhost:5001` para o backend.
-
+Acesse o repositório integrado do projeto ([Principal](https://github.com/mjosejunior/mvp_jrmj_sp2) e siga as instruções.
 
 Em caso de dificuldades, por favor, entre em contato.
 
