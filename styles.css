@@ -1,0 +1,159 @@
+/* Estilização Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+
+/* Reset básico */
+body, h1, div {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+.navbar {
+    background-color:#AAD3DF;
+    color: #277FCA;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+
+/* Estilização para o mapa */
+#map {
+    height: 92vh;
+    width: 100vw;
+    border-top: 5px solid #717170;
+}
+
+/* Adicionando um pouco de transição para suavidade */
+button, input[type="submit"] {
+    background-color: #00825b;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #00825b;
+}
+
+.input-field {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px; /* bordas arredondadas */
+    background-color: #f4f4f4; /* fundo ligeiramente cinza */
+    transition: border-color 0.2s, box-shadow 0.2s; /* transição suave */
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.input-field-endereco {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px; /* bordas arredondadas */
+    background-color: #f4f4f4; /* fundo ligeiramente cinza */
+    transition: border-color 0.2s, box-shadow 0.2s; /* transição suave */
+    width: 100%;
+    box-sizing: border-box;
+    white-space: pre-wrap; 
+    overflow-wrap: break-word; /* quebra de linha automática */
+}
+
+.input-field:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+    outline: none;
+}
+
+.activity-field {
+    margin-bottom: 10px;
+    border: none;
+    display: block; /* garante que ocupe toda a largura */
+    
+}
+
+.btn {
+    background-color: #00825b;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px; /* bordas arredondadas */
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* sombra sutil */
+    transition: background-color 0.2s, box-shadow 0.2s; /* transição suave */
+}
+
+.btn:hover {
+    background-color: #78c8b0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* sombra mais profunda no hover */
+}
+
+.btn:active {
+    background-color: #00825b;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15); /* sombra mais próxima no pressionamento */
+}
+
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.observations-field ul {
+    padding-left: 20px;
+}
+
+.popup-container {
+    max-height: 900px; /* você pode ajustar essa altura conforme necessário */
+    overflow-y: auto;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #00825b;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.leaflet-control-attribution {
+    background-color: rgba(255, 255, 255, 0.7); /* fundo semi-transparente branco */
+    padding: 5px 10px; /* espaçamento interno */
+    font-size: 1.1em; /* tamanho da fonte maior */
+    font-weight: bold; /* negrito */
+}
+
+.leaflet-control-attribution a {
+    color: #0078a8; /* cor azul para os links */
+    text-decoration: none;
+}
+
+.leaflet-control-attribution a:hover {
+    text-decoration: underline;
+}
+
+
